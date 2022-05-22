@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: rgb(168, 40, 93);
+    background-color: aqua;
+    font-weight: 900;
+}
+/* i am aware text-align is not working, I havent learned how 
+to space them yet if their on the same line. if i do a Paragraph theyll
+be on a different line */
+.lasagna  {
+    text-align: left;
+    background-color: rgb(238, 166, 32);
+}
+
+.pizza {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.taco {
+    text-align: right;
+    background-color: darkgreen;
+}
+
+.lasagna,
+.pizza,
+.taco {
+font-size: 24px;
+font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
